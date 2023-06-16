@@ -1,0 +1,16 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/mixins';
+@import 'setup/functions';
+@import 'setup/typography';
+
+// Basics
+@import 'basics/helpers';
+@import 'basics/base';
+@import 'basics/layout';
+
+// CMPS
+@import 'cmps/nav';
+@import 'cmps/HomePage/home-nav';
+@import 'cmps/HomePage/hero';
+@import 'cmps/HomePage/new-arrivals';

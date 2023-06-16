@@ -1,0 +1,28 @@
+.new-arrivals-section {
+  padding-bottom: rem(96px);
+  .new-arrivals-container {
+    .new-arrivals-text {
+      display: flex;
+      margin-bottom: rem(16px);
+    }
+    .new-arrivals-catalog {
+      ul {
+        display: flex;
+        gap: rem(15px);
+        li {
+            overflow: hidden;
+          img {
+            transition: all 0.7s;
+            &:hover {
+              scale: 1.03;
+            }
+          }
+          cursor: pointer;
+        }
+        span {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

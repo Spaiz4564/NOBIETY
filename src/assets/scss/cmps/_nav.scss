@@ -1,0 +1,58 @@
+.nav-container {
+  height: 65px;
+  .nav-container-fixed {
+    position: fixed;
+  background-color: white;
+  z-index: 2;
+    border-bottom: 1px solid #f2f2f2;
+    font-family: univers;
+    nav {
+      align-items: center;
+      height: rem(64px);
+
+      display: flex;
+      justify-content: space-between;
+      .logo {
+        align-self: flex-start;
+        margin-top: 13px;
+        cursor: pointer;
+        font-size: rem(25px);
+      }
+      .explore-links {
+        .underline {
+          margin-right: 20px;
+        }
+        span {
+          cursor: pointer;
+          display: inline-block;
+        }
+      }
+      .nav-icons {
+        display: flex;
+        gap: rem(15px);
+        .icon {
+          cursor: pointer;
+          height: rem(30px);
+          width: rem(25px);
+          svg {
+            path {
+              stroke-width: 1.8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 10%;
+}
+
+.scale-down {
+  transform: scale(1.1, 0.85);
+  font-size: 17.5px;
+  letter-spacing: -0.5px;
+}

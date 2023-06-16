@@ -1,0 +1,108 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+// .opera {
+//   font-family: operetta-light;
+//   font-size: 80px;
+//   font-weight: 100;
+// }
+
+// .zurich {
+//   font-family: zurich;
+//   font-size: 20px;
+//   letter-spacing: 0.5px;
+// }
+
+// .univers{
+//   font-family: univers;
+//   font-size: 15px;
+//   letter-spacing: 0.5px;
+// }
+
+// .main-container {
+//   display: grid;
+//   grid-template-columns: 20px 1fr 20px;
+
+//   > * {
+//     grid-column: 2;
+
+//     &.full {
+//       grid-column: 1 /-1;
+//     }
+//   }
+
+//   @include for-narrow-layout {
+//     grid-template-columns:
+//       minmax(20px, 1fr)
+//       minmax(auto, $mobile-breakpoint)
+//       minmax(20px, 1fr);
+//   }
+//   @include for-normal-layout {
+//     grid-template-columns:
+//       minmax(20px, 1fr)
+//       minmax(auto, $narrow-breakpoint)
+//       minmax(20px, 1fr);
+//   }
+//   @include for-wide-layout {
+//     grid-template-columns:
+//       minmax(20px, 1fr)
+//       minmax(auto, $normal-breakpoint)
+//       minmax(20px, 1fr);
+//   }
+//   @include for-narrow-layout {
+//     grid-template-columns: minmax(20px, 1fr) minmax(auto, $mobile-breakpoint) minmax(
+//         20px,
+//         1fr
+//       );
+//   }
+
+//   @include for-normal-layout {
+//     grid-template-columns: minmax(20px, 1fr) minmax(auto, $narrow-breakpoint) minmax(
+//         20px,
+//         1fr
+//       );
+//   }
+
+//   @include for-wide-layout {
+//     grid-template-columns: minmax(20px, 1fr) minmax(auto, $normal-breakpoint) minmax(
+//         20px,
+//         1fr
+//       );
+//   }
+// }

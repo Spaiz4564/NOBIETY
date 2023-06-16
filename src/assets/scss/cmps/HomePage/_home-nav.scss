@@ -1,0 +1,30 @@
+.home-nav-container {
+  .home-nav-list {
+    font-size: rem(15px);
+    gap: rem(25px);
+    font-weight: normal;
+    padding: rem(22px);
+    border-bottom: 1px solid #f2f2f2;
+
+    li {
+      position: relative;
+      &::after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: -3px;
+        content: '';
+        display: block;
+        height: 1.5px;
+        left: 50%;
+        position: absolute;
+        background: black;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      &:hover::after {
+        width: 100%;
+        left: 0;
+      }
+      cursor: pointer;
+    }
+  }
+}

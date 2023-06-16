@@ -1,0 +1,41 @@
+.hero-section {
+  &:hover {
+    img {
+      scale: 1.03;
+    }
+  }
+  padding-top: rem(48px);
+  padding-bottom: rem(96px);
+  .hero-container {
+    height: rem(715px);
+    display: flex;
+    align-items: flex-start;
+    .hero-text {
+      padding-right: rem(110px);
+      height: 100%;
+      h1 {
+        line-height: rem(100px);
+        font-family: univers-extrabold;
+        font-size: rem(80px);
+      }
+      p {
+        font-size: rem(21px);
+        line-height: rem(35px);
+        margin: 0;
+      }
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .hero-img {
+      overflow: hidden;
+      height: 100%;
+      width: 50%;
+      img {
+        transition: 0.7s all;
+        height: 100%;
+      }
+    }
+  }
+}
